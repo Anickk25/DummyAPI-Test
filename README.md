@@ -2,7 +2,15 @@
 
 This document outlines negative test scenarios for the public APIs at: https://dummy.restapiexample.com
 
+- Five public APIs:
+- 1	/employee	GET	JSON	https://dummy.restapiexample.com/employees	
+- 2	/employee/{id}	GET	JSON	https://dummy.restapiexample.com/employee/1		
+- 3	/create		POST	JSON	https://dummy.restapiexample.com/create				
+- 4	/update/{id}	PUT	JSON	https://dummy.restapiexample.com/update/1		
+- 5	/delete/{id}	DELETE	JSON	https://dummy.restapiexample.com/delete/1	
 ----
+
+- Some scenarios for the above public APIs...
 
 ## 1. Employee by Invalid ID
 
