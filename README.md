@@ -1,6 +1,6 @@
 #DummyAPI Test Suite 
 
-This document outlines negative test scenarios..
+This document outlines negative test scenarios for the public APIs at: https://dummy.restapiexample.com
 
 ----
 
@@ -57,5 +57,13 @@ This document outlines negative test scenarios..
 - **Request**: "DELETE/delete/2"
 - **Expected**: "404 Not Found"
 - **Actual**: "200 OK"
-- No validation		
+- No validation
+
+----
+
+## 6. Updating Invalid Employee
+- **Request**: "PUT//update/abc"
+- **Expected**: "400"
+- **Actual**: "200 OK"
+- Allows update to invalid employee
 
